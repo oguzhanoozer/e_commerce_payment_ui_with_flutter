@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../init/theme/color/hex_color_convert.dart';
 
 enum ColorEnum {
   white("#FFFFFF"),
@@ -14,16 +15,4 @@ enum ColorEnum {
 
 extension ColorPathExtension on ColorEnum {
   Color get colorPath => HexColor("${this.hexCode}");
-}
-
-class HexColor extends Color {
-  static int _getColorFromHex(String hexColor) {
-    hexColor = hexColor.toUpperCase().replaceAll("#", "");
-    if (hexColor.length == 6) {
-      hexColor = "FF" + hexColor;
-    }
-    return int.parse(hexColor, radix: 16);
-  }
-
-  HexColor(final String hexColor) : super(_getColorFromHex(hexColor));
 }
