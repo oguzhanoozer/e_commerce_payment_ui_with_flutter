@@ -23,9 +23,33 @@ class DarkColors implements IColors {
 
   DarkColors() {
     tabBarUnSelectedColor = colors.white;
-    scaffoldBackgroundColor = colors.black;
+    scaffoldBackgroundColor = colors.backgroundColor;
     tabBarSelectedColor = colors.frenchRose;
-    appBarColor = colors.black;
+    appBarColor = colors.backgroundColor;
+    iconColor = colors.white;
+    dividerColor = colors.dividerColor;
+    optionSelectedColor = colors.frenchRose;
+    textColorWhite = colors.white;
+    radioButtonSelectedColor = colors.white;
+    cardTappedColor = colors.frenchRose;
     colorScheme = const ColorScheme.dark().copyWith();
   }
+
+  @override
+  Color? iconColor;
+
+  @override
+  Color? dividerColor;
+
+  @override
+  Color? optionSelectedColor;
+
+  @override
+  Color? textColorWhite;
+
+  @override
+  Color? radioButtonSelectedColor;
+
+  @override
+  Color? cardTappedColor;
 }

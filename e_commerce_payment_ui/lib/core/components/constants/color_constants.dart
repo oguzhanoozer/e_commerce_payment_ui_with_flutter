@@ -7,7 +7,8 @@ enum ColorEnum {
   silverChalice("#AFAFAF"),
   denim("#1446EC"),
   frenchRose("#F15085"),
-  midnight("#001A40");
+  midnight("#001A40"),
+  blueButtonColor("019CDE");
 
   final String hexCode;
   const ColorEnum(this.hexCode);

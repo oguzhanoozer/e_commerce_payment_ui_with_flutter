@@ -41,13 +41,6 @@ class TextThemeLight implements ITextTheme {
           fontWeight: FontWeight.w400,
           fontStyle: FontStyle.normal,
         ),
-        displaySmall: TextStyle(
-          fontFamily: 'Proxima Nova',
-          color: Color(0xffafafaf),
-          fontSize: 14,
-          fontWeight: FontWeight.w600,
-          fontStyle: FontStyle.normal,
-        ),
         labelMedium: TextStyle(
           fontFamily: 'Proxima Nova',
           color: Color(0xffffffff),

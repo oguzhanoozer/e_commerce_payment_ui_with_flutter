@@ -58,6 +58,7 @@ flutter:
   assets:
     - assets/icons/light_theme_icons/
     - assets/icons/dark_theme_icons/
+    - assets/images/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
